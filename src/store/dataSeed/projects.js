@@ -23,8 +23,8 @@ const projects = [
     languages: [techs.languages.HTML, techs.languages.JavaScript, techs.languages.CSS],
     frameworks: [techs.frameworks.Vue, techs.frameworks.Vuex, techs.frameworks.Vuetify, techs.frameworks.VueRouter, techs.frameworks.Node],
     description: 'This project was intended to be an exploratory method of examining the profitability of mining cryptocurrency. This system originally began in a spreadsheet as a simple calculator. However as I continued to explore the problem domain I began to add complexity to the calculations by introducing multiple changing variables, and different possible scenarios. The complexity eventually ballooned to something that spreadsheets did not handle well. Given my profession I decided "What the heck? Let\'s build a small web app for this." Over the course of a couple days after work I built a mostly functional system that accomplished my primary goals. There are some quirks in this system given it was designed as a prototype to explore certain scenarios.',
-    github: 'https://github.com/pending',
-    hosted: 'https://something.com'
+    github: 'https://github.com/brandonmerb/miningcalculator',
+    hosted: 'https://hirebrandonerb.com/portfolio/mining'
   },
   {
     name: 'Enterprise web application',
