@@ -1,18 +1,33 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <landing-section class="landing" />
+    <skills-section />
+    <work-history-section />
+    <projects-section />
+    <contact-section />
   </div>
 </template>
-
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import LandingSection from '../sections/LandingSection.vue'
+import ProjectsSection from '../sections/ProjectsSection.vue'
+import SkillsSection from '../sections/SkillsSection.vue'
+import ContactSection from '../sections/ContactSection.vue'
+import WorkHistorySection from '../sections/WorkHistorySection.vue'
 
 export default {
-  name: 'Home',
   components: {
-    HelloWorld
+    LandingSection,
+    SkillsSection,
+    ProjectsSection,
+    ContactSection,
+    WorkHistorySection
+  },
+  data () {
+    return {
+    }
   }
 }
 </script>
+<style scoped>
+
+</style>
