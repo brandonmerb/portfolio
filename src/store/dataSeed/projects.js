@@ -9,7 +9,7 @@ const projects = [
   {
     name: 'Portfolio Website',
     type: projectTypes.Personal,
-    purpose: 'To show show off some skills, and document the rest',
+    purpose: 'To show off some skills, and document the rest',
     languages: [techs.languages.HTML, techs.languages.JavaScript, techs.languages.CSS],
     frameworks: [techs.frameworks.Vue, techs.frameworks.Vuex, techs.frameworks.Vuetify, techs.frameworks.VueRouter, techs.frameworks.Node],
     description: 'My portfolio website project is the very website you\'re looking at right now! It is built as a statically compiled web project using Vue (and supporting frameworks) for the UI.',
@@ -24,7 +24,7 @@ const projects = [
     frameworks: [techs.frameworks.Vue, techs.frameworks.Vuex, techs.frameworks.Vuetify, techs.frameworks.VueRouter, techs.frameworks.Node],
     description: 'This project was intended to be an exploratory method of examining the profitability of mining cryptocurrency. This system originally began in a spreadsheet as a simple calculator. However as I continued to explore the problem domain I began to add complexity to the calculations by introducing multiple changing variables, and different possible scenarios. The complexity eventually ballooned to something that spreadsheets did not handle well. Given my profession I decided "What the heck? Let\'s build a small web app for this." Over the course of a couple days after work I built a mostly functional system that accomplished my primary goals. There are some quirks in this system given it was designed as a prototype to explore certain scenarios.',
     github: 'https://github.com/brandonmerb/miningcalculator',
-    hosted: 'https://hirebrandonerb.com/portfolio/mining'
+    hosted: 'https://hirebrandonerb.com/mining.html'
   },
   {
     name: 'Enterprise web application',
@@ -42,7 +42,7 @@ const projects = [
     company: 'i2 Integration',
     languages: [techs.languages.HTML, techs.languages.JavaScript, techs.languages.CSS, techs.languages.CSharp, techs.languages.SQL],
     frameworks: [techs.frameworks.Vue, techs.frameworks.Vuex, techs.frameworks.Vuetify, techs.frameworks.VueRouter, techs.frameworks.EF, techs.frameworks.Bootstrap, techs.frameworks.DotNetNuke, techs.frameworks.PWA],
-    description: 'The goal of this project was to build a system to replace some of the client\'s legacy systems, as well as integrate them. Some of the systems that were being replaced and integrated were: A point of sales system, an inventory management system, a time tracking system, an employee database, and a gratuity tracking system. Additionally parts of the application were required to have offline functionality available. This requirement was handled through the use of Service workers to make the application a Progressive Web App (PWA). My role on the project was that of a Software Engineer. As such I was responsible for working with a team to help plan, build, and test functionality. Additionally with the size of the team, I was periodically responsible for onboarding new employees and introducing them to the system.'
+    description: 'The goal of this project was to build a system to replace some of the client\'s legacy systems, as well as integrate them. Some of the systems that were being replaced and integrated were: A point of sales system, an inventory management system, a time tracking system, an employee database, and a gratuity tracking system. Additionally, parts of the application were required to have offline functionality available. This requirement was handled through the use of Service workers to make the application a Progressive Web App (PWA). My role on the project was that of a Software Engineer. As such, I was responsible for working with a team to help plan, build, and test functionality. Additionally with the size of the team, I was periodically responsible for onboarding new employees and introducing them to the system.'
   }
 ]
 

@@ -9,7 +9,7 @@
     >
       <v-app-bar-nav-icon @click="drawer = true" class="d-inline d-md-none"></v-app-bar-nav-icon>
       <v-app-bar-title class="d-inline d-md-none">
-        Brandon Erb: Porfolio site
+        Brandon Erb: Portfolio site
       </v-app-bar-title>
       <div class="d-none d-md-block">
         <v-btn v-for="link in links" :key="link.target" @click="scroll(link)" color="white" text>

@@ -14,8 +14,8 @@ const skills = [
     skills: [
       { name: 'Vue', icon: require('../../assets/skills/vue.svg'), yearsExperience: 3, description: 'Vue is my go to framework when designing new sites. I often enhance this with frameworks like Vuetify, Vuex, and Vue-router', type: 'framework', target: techs.frameworks.Vue.name },
       { name: 'Angular', icon: require('../../assets/skills/angular.svg'), yearsExperience: 1, description: 'All front-end work in my most recent position is Angular based, powered by Rest APIs', type: 'framework', target: techs.frameworks.Angular.name },
-      { name: 'Bootstrap', icon: require('../../assets/skills/bootstrap.svg'), yearsExperience: 6, description: 'A variety of projects I\'ve worked on both new, and old have used Bootstrap', type: 'framework', target: techs.frameworks.Bootstrap.name },
-      { name: 'jQuery', icon: require('../../assets/skills/jquery.svg'), yearsExperience: 7, description: 'jQuery is one of the quintessential original JS frameworks. As such many projects I\'ve worked in use it', type: 'framework', target: techs.frameworks.jQuery.name }
+      { name: 'Bootstrap', icon: require('../../assets/skills/bootstrap.svg'), yearsExperience: 6, description: 'A variety of projects I\'ve worked, on both new and old, have used Bootstrap', type: 'framework', target: techs.frameworks.Bootstrap.name },
+      { name: 'jQuery', icon: require('../../assets/skills/jquery.svg'), yearsExperience: 7, description: 'jQuery is one of the quintessential original JS frameworks. As such, many projects I\'ve worked in use it', type: 'framework', target: techs.frameworks.jQuery.name }
     ]
   },
   {
@@ -47,9 +47,9 @@ const skills = [
   {
     categoryName: 'Mobile',
     skills: [
-      { name: 'Xamarin', icon: require('../../assets/skills/xamarin.svg'), yearsExperience: 1, description: 'During my time at TeamDDM I had the opportunity to assist in building a cross platform Augmented Reality app powered by Xamarin' },
-      { name: 'Swift', icon: require('../../assets/skills/swift.svg'), yearsExperience: 1, description: 'One of my core duties at TeamDDM was maintaing and updating existing iOS applications. Swift was my preferred language of choice when possible' },
-      { name: 'Objective-C', icon: require('../../assets/skills/objectivec.svg'), yearsExperience: 1, description: 'One of my core duties at TeamDDM was maintaing and updating existing iOS applications. A significant amount of our legacy code bases were based in Objective-C. As such, I frequently maintained code in Objective-C' },
+      { name: 'Xamarin', icon: require('../../assets/skills/xamarin.svg'), yearsExperience: 1, description: 'During my time at TeamDDM, I had the opportunity to assist in building a cross platform Augmented Reality app powered by Xamarin' },
+      { name: 'Swift', icon: require('../../assets/skills/swift.svg'), yearsExperience: 1, description: 'One of my core duties at TeamDDM was maintaining and updating existing iOS applications. Swift was my preferred language of choice when possible' },
+      { name: 'Objective-C', icon: require('../../assets/skills/objectivec.svg'), yearsExperience: 1, description: 'One of my core duties at TeamDDM was maintaining and updating existing iOS applications. A significant amount of our legacy code bases were based in Objective-C. As such, I frequently maintained code in Objective-C' },
       { name: 'Universal Windows Platform (UWP)', icon: require('../../assets/skills/uwp.svg'), yearsExperience: 1, description: 'The primary application I was responsible for at TeamDDM was a UWP application. During my time there I implemented many new features and maintained the app' }
     ]
   }
